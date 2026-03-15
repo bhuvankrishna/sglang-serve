@@ -69,5 +69,5 @@ curl http://127.0.0.1:8000/healthz
 
 ## Troubleshoots
 
-If you see an error or warning which says pytorch incompatible then run this command
+If you see an error or warning which says pytorch incompatible then run this command. Make sure the Read the error message
 SGLANG_DISABLE_CUDNN_CHECK=1 uv run python main.py
